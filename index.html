@@ -19,7 +19,9 @@
   th { text-align: left; font-size: 0.8rem; text-transform: uppercase; opacity: 0.6;
         padding: 0.4rem 0.5rem; }
   td { padding: 0.5rem; border-top: 1px solid rgba(128,128,128,0.25); vertical-align: top; }
-  .due { white-space: nowrap; opacity: 0.75; }
+  .due { opacity: 0.75; }
+  .due .day-date { white-space: nowrap; }
+  .course { overflow-wrap: break-word; }
   .badge { display: inline-block; font-size: 0.75rem; padding: 0.1rem 0.4rem; border-radius: 0.75rem;
             background: rgba(220,120,0,0.18); color: inherit; white-space: nowrap; margin-left: 0.3rem; }
   .status { font-size: 0.85rem; opacity: 0.8; }
@@ -30,7 +32,7 @@
 </head>
 <body>
   <h1>Daily Agenda</h1>
-  <p class="generated">Generated 2026-09-11 16:48 EDT</p>
+  <p class="generated">Generated 2026-09-12 05:00 EDT</p>
 
   <section>
     <h2>Do Tonight</h2>
@@ -39,56 +41,21 @@
       <thead><tr><th>Due</th><th>Course</th><th>Assignment</th><th>Status</th><th></th></tr></thead>
       <tbody>
       <tr>
-        <td class="due">Fri Sep 11</td>
-        <td class="course">Earth and Space Systems Science</td>
-        <td class="name">Bell ringer wk 2 </td>
-        <td class="status-cell"><span class="status">Not yet submitted</span></td>
-        <td class="link"><a href="https://hcpss.instructure.com/courses/297924/assignments/14794001" target="_blank" rel="noopener">View</a></td>
-      </tr>
-      <tr>
-        <td class="due">Fri Sep 11</td>
-        <td class="course">Earth and Space Systems Science</td>
-        <td class="name">Eyes on the Exoplanet</td>
-        <td class="status-cell"><span class="status">Not yet submitted</span></td>
-        <td class="link"><a href="https://hcpss.instructure.com/courses/297924/assignments/14772861" target="_blank" rel="noopener">View</a></td>
-      </tr>
-      <tr>
-        <td class="due">Fri Sep 11</td>
-        <td class="course">Earth and Space Systems Science</td>
-        <td class="name">Sun Notes/Vocabulary</td>
-        <td class="status-cell"><span class="status">Graded</span></td>
-        <td class="link"><a href="https://hcpss.instructure.com/courses/297924/assignments/14772865" target="_blank" rel="noopener">View</a></td>
-      </tr>
-      <tr>
-        <td class="due">Fri Sep 11</td>
-        <td class="course">Geometry</td>
-        <td class="name">Warm Ups (9/9-9/11)</td>
-        <td class="status-cell"><span class="status">Not yet submitted</span></td>
-        <td class="link"><a href="https://hcpss.instructure.com/courses/297999/assignments/14802166" target="_blank" rel="noopener">View</a></td>
-      </tr>
-      <tr>
-        <td class="due">Fri Sep 11</td>
-        <td class="course">US History (Honors)</td>
-        <td class="name">Assimilation and Cultural Destruction Organizer</td>
-        <td class="status-cell"><span class="status">Not yet submitted</span></td>
-        <td class="link"><a href="https://hcpss.instructure.com/courses/296893/assignments/14065799" target="_blank" rel="noopener">View</a></td>
-      </tr>
-      <tr>
-        <td class="due">Sun Sep 13 <span class="badge">due on a non-school day</span></td>
+        <td class="due"><span class="day-date">Sun Sep 13</span> <span class="badge">no school day was available before this was due</span></td>
         <td class="course">Health I</td>
         <td class="name">Advocacy Analysis</td>
         <td class="status-cell"><span class="status">Not yet submitted</span></td>
         <td class="link"><a href="https://hcpss.instructure.com/courses/293728/assignments/14783295" target="_blank" rel="noopener">View</a></td>
       </tr>
       <tr>
-        <td class="due">Mon Sep 14 <span class="badge">no after-school time before it's due</span></td>
+        <td class="due"><span class="day-date">Mon Sep 14</span> <span class="badge">no school day was available before this was due</span></td>
         <td class="course">English 9</td>
         <td class="name">Genocide Activity</td>
         <td class="status-cell"><span class="status">Not yet submitted</span></td>
         <td class="link"><a href="https://hcpss.instructure.com/courses/295385/assignments/14787878" target="_blank" rel="noopener">View</a></td>
       </tr>
       <tr>
-        <td class="due">Mon Sep 14 <span class="badge">no after-school time before it's due</span></td>
+        <td class="due"><span class="day-date">Mon Sep 14</span> <span class="badge">no school day was available before this was due</span></td>
         <td class="course">US History (Honors)</td>
         <td class="name">I AM... Poem: Black Americans in the West</td>
         <td class="status-cell"><span class="status">Submitted</span></td>
@@ -99,10 +66,6 @@
   </section>
   <section>
     <h2>Due This Week</h2>
-    <div class="day">
-      <h3>Sat Sep 12 <span class="badge">no school</span></h3>
-      <p class="empty">Nothing due.</p>
-    </div>
     <div class="day">
       <h3>Sun Sep 13 <span class="badge">no school</span></h3>
       <p class="empty">Nothing due.</p>
@@ -115,46 +78,74 @@
       <thead><tr><th>Due</th><th>Course</th><th>Assignment</th><th>Status</th><th></th></tr></thead>
       <tbody>
       <tr>
-        <td class="due">Wed Sep 2</td>
+        <td class="due"><span class="day-date">Wed Sep 2</span></td>
         <td class="course">US History (Honors)</td>
         <td class="name">Reconstruction: Success or Failure for African-Americans? Paragraph</td>
         <td class="status-cell"></td>
         <td class="link"><a href="https://hcpss.instructure.com/courses/296893/assignments/14065928" target="_blank" rel="noopener">View</a></td>
       </tr>
       <tr>
-        <td class="due">Thu Sep 3</td>
+        <td class="due"><span class="day-date">Thu Sep 3</span></td>
         <td class="course">Geometry</td>
         <td class="name">Unit 1 Lesson 1 Practice (Pg 5 & 6)</td>
         <td class="status-cell"></td>
         <td class="link"><a href="https://hcpss.instructure.com/courses/297999/assignments/14773932" target="_blank" rel="noopener">View</a></td>
       </tr>
       <tr>
-        <td class="due">Fri Sep 4</td>
+        <td class="due"><span class="day-date">Fri Sep 4</span></td>
         <td class="course">Earth and Space Systems Science</td>
         <td class="name">Bell ringer wk 1</td>
         <td class="status-cell"></td>
         <td class="link"><a href="https://hcpss.instructure.com/courses/297924/assignments/14794000" target="_blank" rel="noopener">View</a></td>
       </tr>
       <tr>
-        <td class="due">Fri Sep 4</td>
+        <td class="due"><span class="day-date">Fri Sep 4</span></td>
         <td class="course">Earth and Space Systems Science</td>
         <td class="name">Discovering New Worlds</td>
         <td class="status-cell"></td>
         <td class="link"><a href="https://hcpss.instructure.com/courses/297924/assignments/14772859" target="_blank" rel="noopener">View</a></td>
       </tr>
       <tr>
-        <td class="due">Tue Sep 8</td>
+        <td class="due"><span class="day-date">Tue Sep 8</span></td>
         <td class="course">Geometry</td>
         <td class="name">Unit 1 Lesson 2/3 - Practice Problems (pg 9 and 10)</td>
         <td class="status-cell"></td>
         <td class="link"><a href="https://hcpss.instructure.com/courses/297999/assignments/14768674" target="_blank" rel="noopener">View</a></td>
       </tr>
       <tr>
-        <td class="due">Thu Sep 10</td>
+        <td class="due"><span class="day-date">Thu Sep 10</span></td>
         <td class="course">Geometry</td>
         <td class="name">Unit 1 Lesson 5 Activity 2</td>
         <td class="status-cell"></td>
         <td class="link"><a href="https://hcpss.instructure.com/courses/297999/assignments/14767873" target="_blank" rel="noopener">View</a></td>
+      </tr>
+      <tr>
+        <td class="due"><span class="day-date">Fri Sep 11</span></td>
+        <td class="course">Earth and Space Systems Science</td>
+        <td class="name">Eyes on the Exoplanet</td>
+        <td class="status-cell"></td>
+        <td class="link"><a href="https://hcpss.instructure.com/courses/297924/assignments/14772861" target="_blank" rel="noopener">View</a></td>
+      </tr>
+      <tr>
+        <td class="due"><span class="day-date">Fri Sep 11</span></td>
+        <td class="course">Earth and Space Systems Science</td>
+        <td class="name">Sun Notes/Vocabulary</td>
+        <td class="status-cell"></td>
+        <td class="link"><a href="https://hcpss.instructure.com/courses/297924/assignments/14772865" target="_blank" rel="noopener">View</a></td>
+      </tr>
+      <tr>
+        <td class="due"><span class="day-date">Fri Sep 11</span></td>
+        <td class="course">Geometry</td>
+        <td class="name">Warm Ups (9/9-9/11)</td>
+        <td class="status-cell"></td>
+        <td class="link"><a href="https://hcpss.instructure.com/courses/297999/assignments/14802166" target="_blank" rel="noopener">View</a></td>
+      </tr>
+      <tr>
+        <td class="due"><span class="day-date">Fri Sep 11</span></td>
+        <td class="course">US History (Honors)</td>
+        <td class="name">Assimilation and Cultural Destruction Organizer</td>
+        <td class="status-cell"></td>
+        <td class="link"><a href="https://hcpss.instructure.com/courses/296893/assignments/14065799" target="_blank" rel="noopener">View</a></td>
       </tr>
       </tbody>
     </table>
