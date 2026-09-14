@@ -15,15 +15,15 @@
   h2 { font-size: 1.1rem; border-bottom: 1px solid currentColor; padding-bottom: 0.3rem; }
   .day { margin: 1rem 0 1.5rem; }
   .day h3 { font-size: 0.95rem; margin: 0 0 0.4rem; opacity: 0.85; }
-  table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.95rem; table-layout: fixed; }
   th { text-align: left; font-size: 0.8rem; text-transform: uppercase; opacity: 0.6;
-        padding: 0.4rem 0.5rem; }
-  td { padding: 0.5rem; border-top: 1px solid rgba(128,128,128,0.25); vertical-align: top; }
+        padding: 0.4rem 0.5rem; overflow-wrap: break-word; }
+  td { padding: 0.5rem; border-top: 1px solid rgba(128,128,128,0.25); vertical-align: top;
+        overflow-wrap: break-word; }
   .due { opacity: 0.75; }
   .due .day-date { white-space: nowrap; }
-  .course { overflow-wrap: break-word; }
   .badge { display: inline-block; font-size: 0.75rem; padding: 0.1rem 0.4rem; border-radius: 0.75rem;
-            background: rgba(220,120,0,0.18); color: inherit; white-space: nowrap; margin-left: 0.3rem; }
+            background: rgba(220,120,0,0.18); color: inherit; margin: 0.15rem 0.3rem 0 0; }
   .badge-inclass { background: rgba(70,110,220,0.18); cursor: help; }
   .status { font-size: 0.85rem; opacity: 0.8; }
   .empty { opacity: 0.6; font-style: italic; }
@@ -33,12 +33,19 @@
 </head>
 <body>
   <h1>Daily Agenda</h1>
-  <p class="generated">Generated 2026-09-14 16:38 EDT</p>
+  <p class="generated">Generated 2026-09-14 16:44 EDT</p>
 
   <section>
     <h2>Do Tonight</h2>
     
     <table>
+      <colgroup>
+        <col style="width: 16%">
+        <col style="width: 16%">
+        <col style="width: 40%">
+        <col style="width: 16%">
+        <col style="width: 12%">
+      </colgroup>
       <thead><tr><th>Due</th><th>Course</th><th>Assignment</th><th>Status</th><th></th></tr></thead>
       <tbody>
       <tr>
@@ -77,6 +84,13 @@
     <div class="day">
       <h3>Tue Sep 15</h3>
       <table>
+      <colgroup>
+        <col style="width: 16%">
+        <col style="width: 16%">
+        <col style="width: 40%">
+        <col style="width: 16%">
+        <col style="width: 12%">
+      </colgroup>
       <thead><tr><th>Due</th><th>Course</th><th>Assignment</th><th>Status</th><th></th></tr></thead>
       <tbody>
       <tr>
@@ -92,6 +106,13 @@
     <div class="day">
       <h3>Wed Sep 16</h3>
       <table>
+      <colgroup>
+        <col style="width: 16%">
+        <col style="width: 16%">
+        <col style="width: 40%">
+        <col style="width: 16%">
+        <col style="width: 12%">
+      </colgroup>
       <thead><tr><th>Due</th><th>Course</th><th>Assignment</th><th>Status</th><th></th></tr></thead>
       <tbody>
       <tr>
@@ -114,6 +135,13 @@
     <div class="day">
       <h3>Thu Sep 17</h3>
       <table>
+      <colgroup>
+        <col style="width: 16%">
+        <col style="width: 16%">
+        <col style="width: 40%">
+        <col style="width: 16%">
+        <col style="width: 12%">
+      </colgroup>
       <thead><tr><th>Due</th><th>Course</th><th>Assignment</th><th>Status</th><th></th></tr></thead>
       <tbody>
       <tr>
@@ -129,6 +157,13 @@
     <div class="day">
       <h3>Fri Sep 18</h3>
       <table>
+      <colgroup>
+        <col style="width: 16%">
+        <col style="width: 16%">
+        <col style="width: 40%">
+        <col style="width: 16%">
+        <col style="width: 12%">
+      </colgroup>
       <thead><tr><th>Due</th><th>Course</th><th>Assignment</th><th>Status</th><th></th></tr></thead>
       <tbody>
       <tr>
@@ -168,6 +203,13 @@
     <h2>Not Yet Graded (last 14 days)</h2>
     <p class="note">These have due dates in the last two weeks with no grade posted in Canvas yet. That does not mean the work wasn't done or wasn't submitted on time -- only that no grade shows yet.</p>
     <table>
+      <colgroup>
+        <col style="width: 16%">
+        <col style="width: 16%">
+        <col style="width: 40%">
+        <col style="width: 16%">
+        <col style="width: 12%">
+      </colgroup>
       <thead><tr><th>Due</th><th>Course</th><th>Assignment</th><th>Status</th><th></th></tr></thead>
       <tbody>
       <tr>
